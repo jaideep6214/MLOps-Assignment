@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   app:
-    image: codewithsameer/mlops59:latest
+    image: jaideepsachdev/mlops:latest
     ports:
       - "80:80"
     environment:
