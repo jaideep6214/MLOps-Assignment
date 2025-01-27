@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   app:
-    image: jaideepsachdev/mlops:latest
+    image: jaideepsinghsachdev/mlops:latest
     ports:
       - "80:80"
     environment:
