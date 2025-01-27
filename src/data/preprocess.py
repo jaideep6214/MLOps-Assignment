@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 def preprocess():
     df = pd.read_csv("data/raw/titanic.csv")
 
-    # Drop unnecessary features
+    # Drop unnecessary columns
     df.drop(columns=["Cabin", "Name", "Ticket"], inplace=True)
 
     # Handle missing values
@@ -18,8 +18,8 @@ def preprocess():
     df["Embarked"] = label_encoder.fit_transform(df["Embarked"])
 
     # Ensure the order of columns is consistent
-    df = df[["Pclass", "Sex", "Age", "Fare", "SibSp", "Parch", 
-             "Embarked", "Survived"]]
+    df = df[["Pclass", "Sex", "Age", "Fare", "SibSp", "Parch", "Embarked",
+             "Survived"]]
 
     # Save the processed dataframe
     df.to_csv("data/processed/titanic.csv", index=False)
