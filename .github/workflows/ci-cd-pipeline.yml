@@ -48,8 +48,8 @@ jobs:
       - name: Build & Push Image
         run: |
           echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "jaideepsinghsachdev" --password-stdin
-          docker image build -t jaideepsachdev/mlops:latest .
-          docker push jaideepsachdev/mlops:latest
+          docker image build -t jaideepsinghsachdev/mlops:latest .
+          docker push jaideepsinghsachdev/mlops:latest
 
   deploy:
     runs-on: ubuntu-latest
