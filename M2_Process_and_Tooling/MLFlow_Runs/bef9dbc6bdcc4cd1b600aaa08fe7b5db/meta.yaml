@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Jaideep/My_space/MLOPS/mlops59/mlruns/0/bef9dbc6bdcc4cd1b600aaa08fe7b5db/artifacts
+end_time: 1722683678069
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bef9dbc6bdcc4cd1b600aaa08fe7b5db
+run_name: rumbling-conch-258
+run_uuid: bef9dbc6bdcc4cd1b600aaa08fe7b5db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722683667997
+status: 3
+tags: []
+user_id: Jaideep

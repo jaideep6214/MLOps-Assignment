@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Jaideep/My_space/MLOPS/mlops59/mlruns/0/75367850c3ab4d8982e30d2258d67d0a/artifacts
+end_time: 1722682542785
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 75367850c3ab4d8982e30d2258d67d0a
+run_name: upbeat-rat-252
+run_uuid: 75367850c3ab4d8982e30d2258d67d0a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722682531773
+status: 3
+tags: []
+user_id: Jaideep

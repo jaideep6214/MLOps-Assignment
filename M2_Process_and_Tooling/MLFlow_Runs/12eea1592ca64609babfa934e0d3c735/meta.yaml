@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Jaideep/My_space/MLOPS/mlops59/mlruns/0/12eea1592ca64609babfa934e0d3c735/artifacts
+end_time: 1722682465638
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 12eea1592ca64609babfa934e0d3c735
+run_name: receptive-midge-95
+run_uuid: 12eea1592ca64609babfa934e0d3c735
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722682459274
+status: 4
+tags: []
+user_id: Jaideep
